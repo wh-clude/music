@@ -1,0 +1,69 @@
+.recommend h2 {
+  padding-left: 0.09rem;
+  border-left: 0.02rem solid #d33a31;
+  margin: 0.14rem 0;
+}
+.recommend .recInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.recommend .recInfo .recList {
+  width: 33%;
+}
+.recommend .recInfo .recList img {
+  width: 100%;
+}
+.recommend .recInfo .recList p {
+  font-size: 0.13rem;
+}
+.recommend .newList li {
+  line-height: 0.3rem;
+  width: 100%;
+  padding-left: 0.1rem;
+  box-sizing: border-box;
+  height: 0.54rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  font-size: 0.17rem;
+}
+.recommend .newList li .center {
+  flex: 1;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.recommend .newList li .center div {
+  font-size: 0.17rem;
+}
+.recommend .newList li .center div:nth-child(1) {
+  height: 0.25rem;
+  overflow: hidden;
+}
+.recommend .newList li .center div:nth-child(2) {
+  font-size: 0.12rem;
+  color: #999;
+}
+.recommend .newList li .center div .SQ {
+  display: inline-block;
+  width: 0.12rem;
+  height: 0.08rem;
+  margin-right: 0.04rem;
+  background: url('../images/index_icon_2x.png') no-repeat 0 0;
+  background-size: 166px 97px;
+}
+.recommend .newList li .center span {
+  margin-left: 0.05rem;
+  color: #666;
+}
+.recommend .newList li .right {
+  width: 0.42rem;
+  text-align: center;
+}
+.recommend .newList li .right .playPic {
+  display: inline-block;
+  margin-top: 0.16rem;
+  width: 0.22rem;
+  height: 0.22rem;
+  background: url('../images/index_icon_2x.png') no-repeat -0.24rem 0;
+  background-size: 166px 97px;
+}

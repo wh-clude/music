@@ -1,0 +1,69 @@
+.hotRank{
+    .hotTop{
+        width: 100%;
+        height: 1.46rem;
+        background: url('../images/hot_music_bg_2x.jpg');
+        background-size: 3.75rem;
+        img{
+            height: 1.46rem;
+        }
+    }
+    li{
+        line-height: .3rem;
+        width: 100%;
+        padding-left: .1rem;
+        box-sizing: border-box;
+        height: .54rem;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        font-size: .17rem;
+        .left{
+            width: .4rem;
+            line-height: .54rem;
+            .active{
+                color: #df3436;
+            }
+        }
+        .center{
+            flex: 1;
+            // padding: .06rem 0;
+            box-sizing: border-box;
+            overflow: hidden;
+            div{
+                font-size: .17rem;
+                &:nth-child(1){
+                    height: .25rem;
+                    overflow: hidden;
+                }
+                &:nth-child(2){
+                    font-size: .12rem;
+                    color: #999;
+                }
+                .SQ{
+                    display: inline-block;
+                    width: .12rem;
+                    height: .08rem;
+                    margin-right: .04rem;
+                    background: url('../images/index_icon_2x.png') no-repeat 0 0;
+                    background-size: 166px 97px;
+                }
+            }
+            span{
+                margin-left: .05rem;
+                color: #666;
+            }
+        }
+        .right{
+            width: .42rem;
+            text-align: center;
+            .playPic{
+                display: inline-block;
+                margin-top: .16rem;
+                width: .22rem;
+                height: .22rem;
+                background: url('../images/index_icon_2x.png') no-repeat -0.24rem 0;
+                background-size: 166px 97px;
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.play {
+  background-color: #454547;
+  opacity: 0.9;
+  height: 100vh;
+}
+.play .m-logo {
+  position: absolute;
+  top: 0.2rem;
+  left: 10px;
+  display: block;
+  height: 0.17rem;
+  z-index: 30;
+  font-size: 0.17rem;
+}
+.play .m-logo a {
+  color: #fff;
+}
+.play .play_top {
+  position: relative;
+  width: 0.96rem;
+  height: 1.37rem;
+  top: 0;
+  left: 1.65rem;
+  background: url('../images/needle.png') no-repeat;
+  background-size: contain;
+  z-index: 10;
+}
+.play .contain {
+  position: relative;
+  width: 2.96rem;
+  height: 2.96rem;
+  border: 1px solid #000;
+  margin: -0.7rem auto;
+  background: url('../images/disc.png') no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}
+.play .contain img {
+  position: absolute;
+  width: 1.84rem;
+  height: 1.84rem;
+  top: 50%;
+  left: 50%;
+  margin: -0.92rem 0 0 -92px;
+  border-radius: 50%;
+}
+.play .contain .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -0.22rem 0 0 -0.22rem;
+  width: 0.44rem;
+  height: 0.44rem;
+  background: url('../images/index_icon_2x.png') no-repeat -0.48rem 0;
+  background-size: 332px 194px;
+  display: none;
+}
+.play .rotateBox {
+  animation: moveRout 10s linear infinite;
+}
+@keyframes moveRout {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.play .play_txt {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.18rem;
+  color: #fff;
+}
+.play .play_txt .play_txt_name span:nth-child(2) {
+  font-size: 0.16rem;
+  color: #999;
+}
+.play .lyric {
+  padding: 0 0.35rem;
+  margin-top: 0.25rem;
+  height: 0.54rem;
+  overflow: auto;
+  color: #fff;
+  font-size: 0.16rem;
+}
+.play .lyric p {
+  text-align: center;
+  line-height: 0.32rem;
+}
+.play .lyric .active {
+  color: #0cb4f7;
+  font-size: 0.18rem;
+}
+.play .audio {
+  text-align: center;
+  margin-top: 0.5rem;
+  color: blue;
+}
+.play .audio audio {
+  display: none;
+}
+.play .audio:hover audio {
+  display: inline-block;
+}

@@ -1,0 +1,54 @@
+.index .header {
+  width: 100%;
+  height: 0.84rem;
+  background-color: #d43c33;
+  padding: 0 0.1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.index .header .con_center {
+  display: flex;
+  margin-top: 0.24rem;
+}
+.index .header .con_center h1 {
+  flex: 1;
+  width: 1.42rem;
+  height: 0.25rem;
+  line-height: 0.36rem;
+}
+.index .header .con_center h1 .title {
+  font-size: 0.25rem;
+  color: #fff;
+}
+.index .header .con_center .download {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  width: 100px;
+  text-align: center;
+  color: #d43c33;
+  background-color: #fff;
+  border-radius: 37.5%/100%;
+}
+.index .navbar {
+  height: 0.4rem;
+  border-bottom: 0.01rem solid #ccc;
+  width: 100%;
+  display: flex;
+  line-height: 0.4rem;
+}
+.index .navbar .flexBox {
+  flex: 1;
+  text-align: center;
+}
+.index .navbar a {
+  display: inline-block;
+  font-size: 0.15rem;
+  padding: 0 0.05rem;
+  height: 100%;
+}
+.index .navbar .active {
+  color: #dd001b;
+  border-bottom: 2px solid #dd001b;
+}
